@@ -1,0 +1,10 @@
+// Right Half Number Printing in Pathetic
+let rows = 5
+for i as (i = 0 ; i < rows ; i++)
+do {
+    for j as (j = 0 ; j <= i ; j++)
+    do {
+        say f"{j + 1} "
+    }
+    say "\n"
+}
